@@ -1,5 +1,5 @@
 //tunniplaani objekt
-const tunniplaan = new Tunniplaan(346, '2021-01-04');
+const tunniplaan = new Tunniplaan(346, '2021-01-11');
 
 //kasutaja liidese objekt
 const kl = new KasutajaLiides();
