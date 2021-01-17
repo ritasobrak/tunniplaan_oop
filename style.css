@@ -25,3 +25,15 @@ a:focus, a:hover { text-decoration: none; color: #886ea5; }
 .table-striped tbody tr:nth-of-type(odd) { background-color: hsl(224, 100%, 99%); }
 caption { padding-top: .75rem; padding-bottom: .75rem; color: #26282c; text-align: left; caption-side: bottom; }
 .mb30{margin-bottom:30px;}
+
+
+.btn-outline-success {
+    color: #886EA5;
+    border-color: #886EA5;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #886EA5;
+    border-color: #886EA5;
+}
