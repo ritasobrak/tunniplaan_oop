@@ -9,4 +9,8 @@ class Tunniplaan {
         const andmed = await vastus.json();
         return andmed;
     }
+
+    setTeacher(teacherId) {
+        this.opetaja = teacherId;
+    }
 }

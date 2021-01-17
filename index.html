@@ -21,11 +21,12 @@
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mb30">
                     <h2>TIMETABLE</h2>
                 </div>
+                <!-- opetaja vahetus -->
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb30">
                     <nav class="navbar navbar-light bg-light">
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <form id="selectTeacherForm" class="form-inline">
+                            <input id="teacher" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" onclick="changeTeacher(); return false">Search</button>
                         </form>
                     </nav>
                 </div>
